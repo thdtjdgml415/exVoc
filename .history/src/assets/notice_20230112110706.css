@@ -1,0 +1,10 @@
+h2 {
+    border: 1px solid #000;
+}
+
+.post-wrap {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+}
