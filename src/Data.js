@@ -29,6 +29,12 @@ const postList = [
         "content": "다섯번째 게시글 내용입니다.",
         "createDate": "2023-01-12"
       },
+      {
+        "no": 6,
+        "title": "다섯번째 게시글입니다.",
+        "content": "다섯번째 게시글 내용입니다.",
+        "createDate": "2023-01-12"
+      }
 ]
 
 const getPostByNo = no => {
