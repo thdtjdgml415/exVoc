@@ -6,7 +6,7 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 
 import Modal from "../components/modal/Modal";
 import CheckModal from "../components/modal/CheckModal";
-import AdminModal from "../components/modal/AdminModal.";
+import AdminModal from "../components/modal/adminModal.";
 
 const Registration = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -29,10 +29,10 @@ const Registration = () => {
   };
 
   const openadminModal = () => {
-    setAdminModal(true);
+    setCheckModal(true);
   };
   const closeadminModal = () => {
-    setAdminModal(false);
+    setCheckModal(false);
   };
 
   return (

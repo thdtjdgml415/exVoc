@@ -6,13 +6,11 @@ import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 
 import Modal from "../components/modal/Modal";
 import CheckModal from "../components/modal/CheckModal";
-import AdminModal from "../components/modal/AdminModal.";
+import adminModal from "../components/modal/adminModal.";
 
 const Registration = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [checkModal, setCheckModal] = useState(false);
-
-  const [adminModal, setAdminModal] = useState(false);
 
   const openModal = () => {
     setModalOpen(true);
@@ -26,13 +24,6 @@ const Registration = () => {
   };
   const closeCheckModal = () => {
     setCheckModal(false);
-  };
-
-  const openadminModal = () => {
-    setAdminModal(true);
-  };
-  const closeadminModal = () => {
-    setAdminModal(false);
   };
 
   return (
@@ -63,8 +54,8 @@ const Registration = () => {
       </React.Fragment>
       <React.Fragment>
         <div className="checkBtn">
-          <button onClick={openadminModal}>관리자 페이지</button>
-          <AdminModal open={adminModal} close={closeadminModal}>
+          <button onClick={opencheckModal}>관리자 페이지</button>
+          <CheckModal open={checkModal} close={closeCheckModal}>
             <p>
               아이디
               <input className="modalInput" />
@@ -73,7 +64,7 @@ const Registration = () => {
               패스워드
               <input className="modalInput" />
             </p>
-          </AdminModal>
+          </CheckModal>
         </div>
       </React.Fragment>
       <div id="container">

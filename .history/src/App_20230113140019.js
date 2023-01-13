@@ -14,7 +14,7 @@ function App() {
           <Route path='/postView/:no' element={<PostView/>}/>
           <Route path='/' element= {<PostMain/>}/>
           <Route path='/Page/AdminList' element= {<AdminList/>}/>
-          <Route path='/AdminView/:no' element= {<AdminView/>}/>
+          <Route path='/Page/AdminView' element= {<AdminView/>}/>
         </Routes>
       </BrowserRouter>
     </div>
