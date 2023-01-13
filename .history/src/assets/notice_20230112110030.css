@@ -1,0 +1,7 @@
+h2 {
+    border: 1px solid #000;
+}
+
+.post-view-wrapper {
+    display: flex;
+}
