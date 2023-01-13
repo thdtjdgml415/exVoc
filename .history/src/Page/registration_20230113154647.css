@@ -1,0 +1,51 @@
+.titleCon {
+  margin-right: 25px;
+}
+
+.titleCon2 {
+  margin-right: 10px;
+}
+
+.titleCon3 {
+  margin-right: 42px;
+}
+
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.registBtn {
+  margin-right: 10px;
+}
+
+.checkBtn {
+  margin-left: 50px;
+  margin-top: 30px;
+
+}
+
+.modalInput {
+  margin-left: 20px;
+}
+
+.modalInput2 {
+    margin-left: 6px;
+  }
+
+  .Post-write-wrap {
+    display: flex;
+    
+    
+  }
+  .container__wrap {
+    border: 1px solid #ccc;
+    margin-left: 30%;
+    padding: 10px 30px; 
+  }

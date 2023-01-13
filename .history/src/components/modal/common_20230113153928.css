@@ -1,0 +1,19 @@
+#container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+html {
+  background-color: white;
+}
+
+h3 {
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+h1 {
+  margin-left: 50px;
+  margin-top: 30px;
+}
