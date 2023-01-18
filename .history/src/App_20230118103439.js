@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import PostMain from "./Page/PostMain";
 import PostView from "./Page/PostView";
 import Registration from "./Page/Registration";

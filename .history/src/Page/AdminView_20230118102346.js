@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router";
 import { getPostByNo } from "../Data";
-import "../assets/css/";
+import "./Post.css";
 import "../components/modal/common.css";
 import AcceptModal from "../components/modal/AcceptModal";
 

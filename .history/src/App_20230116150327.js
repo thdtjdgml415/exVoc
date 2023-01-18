@@ -6,6 +6,15 @@ import AdminList from "./Page/AdminList";
 import AdminView from "./Page/AdminView";
 
 function App() {
+  const [message, setMessage] = useState("");
+  useEffect(() => {
+    fetch("/hello")
+      .then((reponse) => Response.tesct())
+      .then((message) => {
+        setMessage(message);
+      });
+  }, []);
+
   return (
     <div className="App">
       <BrowserRouter>

@@ -1,0 +1,40 @@
+.PostList-Wrap {
+  padding-top: 10vw;
+
+}
+
+.post-view-wrapper {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .post-view-btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .post-view-go-list-btn {
+    border: 0;
+    padding: 10px;
+    background-color: #ccc;
+  }
+  
+  .post-view-row {
+    margin: 10px 0;
+    display: flex;
+  }
+  
+  .post-view-row > label:first-child {
+    margin: 10px 0;
+    width: 10%;
+    font-weight: bold;
+  }
+  
+  .post-view-row > *:nth-child(2) {
+    margin: 10px 0;
+    width: 70%;
+  }
+
+  .registBtn__admin {
+    
+  }
+
